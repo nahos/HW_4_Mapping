@@ -8,7 +8,7 @@ it("initializes with two profs", function() {
 		app = instance;
       return app.countInstructors();
     }).then(function(count) {
-      assert.equal(count, 2);
+      assert.equal(count, 2);// This implicitly tests event the setInstructor function.
     });
   });
  it("Sets the correct value of the prof",function(){
@@ -31,4 +31,5 @@ it("initializes with two profs", function() {
 	  assert.equal(res[2], "Guy", "Contains Correct last name");
 	})
  });
+
 });
