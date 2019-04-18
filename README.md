@@ -34,3 +34,35 @@ $truffle migrate --reset
 $truffle test
 ```
 
+
+To test this contract, I have done the folllowing:
+1. Initalized the contract with the entries of two professor as shown below
+   setInstructor(0xDb089761E0c088221966f42E1ba151586CA433B3,22,"Fname","Lname");
+	  setInstructor(0x13E6f3e195B773977253E4Fc4D36972675C5EcAE,35,"Random","Guy");
+2.In the testing javascript file , I then call the countInstructors() function of the contract and test it if the function returns a       value of 2.
+3.In the testing javascript file, I then query to get the array of all the addresses of preofessors by calling the function               Instructors() and I check if the address of the two professors whose values were initialized matches or not.
+4.Finally, I call the method getInstructor() twice  to get the values of age,First Name and Last name of the two professors and check if   they match the values that was initialized.
+
+Using the above 4 steps, I test all the four fucntions setInstructor(),getInstructor(),getInstructors() and countInstructor().
+
+Below is the result of reunning the testing:
+Using network 'development'.
+
+
+Compiling your contracts...
+===========================
+> Compiling .\contracts\Courses.sol
+> Artifacts written to C:\Users\sohan\AppData\Local\Temp\test-119317-16300-11hce2w.eksv
+> Compiled successfully using:
+   - solc: 0.5.0+commit.1d4f565a.Emscripten.clang
+
+
+
+  Contract: Courses
+    √ initializes with two profs
+    √ Sets the correct value of the prof (111ms)
+
+
+  2 passing (162ms)
+
+
