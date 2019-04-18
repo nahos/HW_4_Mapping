@@ -8,10 +8,10 @@ it("initializes with two profs", function() {
 		app = instance;
       return app.countInstructors();
     }).then(function(count) {
-      assert.equal(count, 2);// This implicitly tests event the setInstructor function.
+      assert.equal(count, 2);// This implicitly tests even the setInstructor function.So t tests 2 functions-count Instructors() and setInstructor
     });
   });
- it("Sets the correct value of the prof",function(){
+ it("Sets the correct value of the prof",function(){// Test for getINstructor and getInstructors
 	return Courses.deployed().then(function(instance){
 		app = instance;
 		return instance.getInstructors();
