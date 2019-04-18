@@ -37,8 +37,8 @@ $truffle test
 
 To test this contract, I have done the folllowing:
 - Initalized the contract with the entries of two professor as shown below.
-  setInstructor(0xDb089761E0c088221966f42E1ba151586CA433B3,22,"Fname","Lname");.
-   setInstructor(0x13E6f3e195B773977253E4Fc4D36972675C5EcAE,35,"Random","Guy");.
+   - setInstructor(0xDb089761E0c088221966f42E1ba151586CA433B3,22,"Fname","Lname");.
+   - setInstructor(0x13E6f3e195B773977253E4Fc4D36972675C5EcAE,35,"Random","Guy");.
 2.In the testing javascript file , I then call the countInstructors() function of the contract and test it if the function returns a       value of 2.
 3.In the testing javascript file, I then query to get the array of all the addresses of preofessors by calling the function               Instructors() and I check if the address of the two professors whose values were initialized matches or not.
 4.Finally, I call the method getInstructor() twice  to get the values of age,First Name and Last name of the two professors and check if   they match the values that was initialized.
