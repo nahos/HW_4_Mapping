@@ -51,6 +51,8 @@ Using network 'development'.
 
 Compiling your contracts...
 ===========================
+
+```
 > Compiling .\contracts\Courses.sol
 > Artifacts written to C:\Users\sohan\AppData\Local\Temp\test-119317-16300-11hce2w.eksv
 > Compiled successfully using:
@@ -66,3 +68,4 @@ Compiling your contracts...
   2 passing (162ms)
 
 
+```
