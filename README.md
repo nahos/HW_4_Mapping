@@ -48,11 +48,11 @@ Using the above 4 steps, I test all the four fucntions setInstructor(),getInstru
 Below is the result of reunning the testing:
 Using network 'development'.
 
-
+```
 Compiling your contracts...
 ===========================
 
-```
+
 > Compiling .\contracts\Courses.sol
 > Artifacts written to C:\Users\sohan\AppData\Local\Temp\test-119317-16300-11hce2w.eksv
 > Compiled successfully using:
