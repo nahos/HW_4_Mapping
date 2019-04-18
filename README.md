@@ -20,7 +20,7 @@ $ node -v
 $ npm  -v
 
 ```
--Install [Ganache] from the below [website]
+-Install [Ganache] from the below [website](https://truffleframework.com/docs/ganache/quickstart)
 - Install truffle  by running the below commands
  ```sh
  $ npm -g install truffle
