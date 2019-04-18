@@ -1,4 +1,4 @@
-# HW_4_Mapping
+# HW_4_Mapping By Sohan Sathyan
 
 The  contract at the end of:https://coursetro.com/posts/code/102/Solidity-Mappings-&-Structs-Tutorial is made compatible with solidity 0.5 or higher.and  added and documented testing for every function.
 
